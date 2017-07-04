@@ -16,7 +16,7 @@ export default class App extends React.Component {
         <View
           style={{
             height: 80,
-            backgroundColor: "blue",
+            backgroundColor: "red",
           }}
         >
           <Text
@@ -27,8 +27,8 @@ export default class App extends React.Component {
               marginTop: 35,
               color: "white"
             }}
-          >  
-            Simple example for React Native Example and Clusters
+          >
+            Example for React Native Map Clusters
           </Text>
         </View>
         <Map

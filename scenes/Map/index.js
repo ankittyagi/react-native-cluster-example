@@ -1,12 +1,11 @@
 import React from 'react';
 import {
   Text,
-  View 
+  View
 } from 'react-native';
 
 import Expo from 'expo';
 import supercluster from 'supercluster';
-import Promise from 'bluebird';
 
 import Marker from './components/Marker';
 
@@ -28,7 +27,7 @@ export default class Map extends React.Component {
 
   setRegion(region) {
     if(Array.isArray(region)) {
-      region.map(function(element) { 
+      region.map(function(element) {
         if (element.hasOwnProperty("latitudeDelta") && element.hasOwnProperty("longitudeDelta")) {
           region = element;
           return;
