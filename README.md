@@ -1,4 +1,5 @@
-Trying hands on map cluster
+Trying hands on map cluster 
+Add functionality to show custom values in cluster markers instead of number of markers
 
 # React Native Cluster Map
 
